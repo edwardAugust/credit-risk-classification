@@ -15,7 +15,6 @@ Using a logistic regression we will be able train our model on the training data
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Both models appear to have the same values, possibly this is a developper error, further investigation is required
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+* Both models appear to have the same values, possibly this is a developper error, further investigation is required.
+* Performance is lacking. More exploration is needed.
+* This model over diagnoses healthy loans. From a banking standpoint, it would not be efficient to continue relying this model. As a hypthetical, we can imagine that Silicon Bank must have had a poor risk assessment model, which means they lent out too many loans that were a credit risk and therefore lost other people's money.
